@@ -1,0 +1,5 @@
+curl \-F 'client_id=CLIENT-ID' \
+    -F 'client_secret=CLIENT-SECRET' \
+    -F 'grant_type=authorization_code' \
+    -F 'redirect_uri=YOUR-REDIRECT-URI' \
+    -F 'code=CODE' \https://api.instagram.com/oauth/access_token

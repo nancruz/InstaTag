@@ -1,0 +1,85 @@
+@font-face
+{
+font-family: Intro;
+	src: url('intro/intro.eot');
+    src: url('intro/intro.eot') format('embedded-opentype'),
+         url('intro/intro.woff') format('woff'),
+         url('intro/intro.ttf') format('truetype'),
+         url('intro/intro.svg#Intro') format('svg');
+
+}
+@font-face
+{
+font-family: Coolvetica;
+    src: url('coolvetica/coolvetica.ttf') format('truetype');
+}
+body {
+	background-color:black;
+    background-size:contain;
+	margin:0px;
+	font-family:Coolvetica;
+    overflow:hidden;
+    background-size:100% 100%;
+}
+div {
+	display:block;
+}
+.hidden{
+    display:none;
+}
+#header{
+	margin-bottom:80px;
+	background-color:white;
+	height:80px;
+}
+
+#logo{
+	margin-left:100px;
+}
+#logo img{
+	margin-top:10px;
+}
+.post{
+	position:absolute;
+	width:100%;
+}
+.photo{
+	position:absolute;
+	left:200px;
+}
+
+.photo img{
+    position:absolute;
+    width:400px;
+    border:10px solid white;
+}
+.container{
+	position:absolute;
+	left:700px;
+}
+.user_photo {
+	margin-bottom:20px;
+}
+.user_photo img{
+	width:100px;
+	height:auto;
+}
+.user_name{
+	margin-bottom:20px;
+}
+.user_name span{
+    color:black;
+    letter-spacing:4px;
+	background-color: rgba(86,86,86,0.5);
+	font-size:40;
+}
+.photo_caption{
+    color:black;
+	background-color:rgba(86,86,86,0.5);
+	width:80%;
+}
+.photo_caption span{
+	font-size:40;
+    letter-spacing:2px;
+}
+

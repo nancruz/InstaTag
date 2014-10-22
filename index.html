@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="handlebars.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="main.css" />
+
+	</head>
+	<body>
+	
+        <div id="content">
+        </div>
+        <script id="photos-list" type="text/x-handlebars-template">
+            {{#data}}
+                <div id={{id}} class="post hidden">
+                    <div class="photo">
+                        <img src={{images.standard_resolution.url}} />    
+                    </div>
+                    <div class="container">
+                        <div class="user_photo">
+                            <img src={{user.profile_picture}} />
+                        </div>
+                        <div class="user_name">
+                            <span>@{{user.username}}</span>
+                        </div>
+                        <div class="photo_caption">
+                            <span>{{caption.text}}</span>
+                        </div>
+                    </div>
+                </div>
+            {{/data}}
+        </script>
+	</body>
+</html>
