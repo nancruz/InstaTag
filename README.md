@@ -1,5 +1,6 @@
 InstaTag
 ======
+A web app to slideshow the latest photos from Instagram with a specific tag
 
 ## Configuration
 In order to this web app to work, it is necessary to specify an `Access token` and a `tag`. This access token can be obtained using the access_token script available with this app. 
